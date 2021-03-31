@@ -5,7 +5,7 @@
     class Nama{
         public $nama;
         public $gender;
-        private $address = 'Gresik';
+        private $address = 'Surabaya';
         
         //untuk mengganti value yang ada di dalam method address : 
         public function setAddress($address_nama){
@@ -18,11 +18,11 @@
     }
 
 $adell = new Nama;
-echo(($adell->nama='Lidya Adela Putri'));
+echo(($adell->nama='Bernicha Diah Ayu Safitri'));
 print('<br>');
 echo(($adell->gender='female'));
 print('<br>');
-$adell->setAddress('Bali');
+$adell->setAddress('Bandung');
 echo($adell->getAddress());
 
 ?>
